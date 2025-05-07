@@ -3,9 +3,9 @@ import AvatarImg from "@/../public/avatar.jpg";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-gray-200 flex 
+    <div className="w-full h-screen bg-gray-200 flex 
     justify-center items-center flex-col p-[30px] pt-[80px]">
-      <div className="w-[600px] h-[600px] rounded-2xl bg-white flex flex-col justify-center items-center">
+      <div className="w-[600px] h-[90vh] rounded-2xl bg-white flex flex-col justify-center items-center">
         <Image
           src={AvatarImg}
           alt="Avatar"
